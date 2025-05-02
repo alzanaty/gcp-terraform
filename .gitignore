@@ -1,0 +1,17 @@
+# Terraform state files
+*.tfstate
+*.tfstate.backup
+.terraform/
+.terraform.lock.hcl
+
+# Local configuration
+*.tfvars
+*.tfvars.json
+
+# OS or editor-specific
+.DS_Store
+*.log
+*.swp
+.idea/
+.vscode/
+
