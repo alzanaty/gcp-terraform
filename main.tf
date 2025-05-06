@@ -1,6 +1,6 @@
 terraform {
   backend "gcs" {
-    bucket  = "testproject-gcp-xyz-terraform-state"        # GCS bucket name
+    bucket  = "testproject-gcp-xyz-terraform-state"        # GCS bucket name for state file storage
     prefix  = "terraform/state"           # Folder/key path within the bucket
   }
 }
